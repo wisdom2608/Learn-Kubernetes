@@ -43,7 +43,7 @@ You don't have to build a new image, you don't have to go through this whole cyc
  - 𝐒𝐞𝐜𝐫𝐞𝐭
 Secret is just like ConfigMap but the difference is that it's used to store secret data credentials for example, and it's stored not in plain text format but in base64 encoded format. Secret will contain things like credentials. Database username could also be put in ConfigMap but what's important is the passwords, certificates, things that you don't want other people to have access to will go in the secret. 
 
-![image alt](secret)
+![image alt](https://github.com/wisdom2608/Learn-Kubernetes/blob/bc37b7f289c017ccfd5333865b71f8aa661422c7/02%20Kubernetes-core-components/secret.jpeg)
 Just like ConfigMap you just connect it to your Pod so that Pod can actually see those data and read from the secret you can actually use the data from ConfigMap or secret inside of your application Pod by using environmental variables.
 
 We've actually looked at almost all mostly used kubernetes basic components. We've looked at the Pod, we've seen how services are used, what is ingress component useful for, and we've also seen external configuration using ConfigMap and secrets.
