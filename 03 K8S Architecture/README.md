@@ -9,7 +9,7 @@ We going look at two types of Nodes that kubernetes operates on. One is Master i
  - Worker Machine in Kubernetes cluster
 
 <p align="center">
-  <img src="https://github.com/wisdom2608/Learn-Kubernetes/blob/632ed19fe23a91b5aa831ef5dc6821d8fcb86e41/03%20K8S%20Architecture/workernode.jpeg" width="250" height="250"/>
+  <img src="https://github.com/wisdom2608/Learn-Kubernetes/blob/632ed19fe23a91b5aa831ef5dc6821d8fcb86e41/03%20K8S%20Architecture/workernode.jpeg" width="400" height="250"/>
 </p>
 Let's with the basic setup of one Node with two application Pod running on it. One of the main components of kubernetes architecture are its worker servers or Nodes and each Node will have multiple application Pod with containers running on that Node. The way kunernetes does it is using three processes that must be installed on every Node that are used to schedule and manage those Pods. Nodes are the cluster servers that actually do the work that's why sometimes there are also called worker Nodes. The first process that needs to run on every Node is the container runtime in our example, have docker but it could be some other technology. 
 
