@@ -6,8 +6,11 @@ Learn Kuberntes
 
 CENTER2
 <p align="center">
-  <img src="https://github.com/wisdom2608/Learn-Kubernetes/blob/7d0f09335ee387978f60bd12f274b3014a298d2f/IMG_1572.jpeg" width="150" height="150"/>
+  <img src="https://github.com/wisdom2608/Learn-Kubernetes/blob/7d0f09335ee387978f60bd12f274b3014a298d2f/k8s_architecture_1"/>
 </p>
+
+
+![image alt](https://github.com/wisdom2608/Learn-Kubernetes/blob/7d0f09335ee387978f60bd12f274b3014a298d2f/k8s_architecture_1)
 
 image link
 <p align="center">
