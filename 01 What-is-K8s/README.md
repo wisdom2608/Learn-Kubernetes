@@ -17,8 +17,8 @@ This means that kubernetes helps you manage application which are made up of hun
 𝐖𝐡𝐚𝐭 𝐩𝐫𝐨𝐛𝐥𝐞𝐦 𝐝𝐨𝐞𝐬 𝐊𝐮𝐛𝐞𝐫𝐧𝐞𝐭𝐞𝐬 𝐬𝐨𝐥𝐯𝐞?
 So, what problem does Kubernetes solve?, and what are the tasks of a container orchestration tool actually? 
 
-<p align="https://github.com/wisdom2608/Learn-Kubernetes/blob/31ecf1e40f0acfc2a74944358b0b7009ea3ea605/01%20What-is-K8s/the%20_prob_k8s_solve.jpeg">
-  <img src="" width="400" height="250"/>
+<p align="center">
+  <img src="https://github.com/wisdom2608/Learn-Kubernetes/blob/31ecf1e40f0acfc2a74944358b0b7009ea3ea605/01%20What-is-K8s/the%20_prob_k8s_solve.jpeg" width="400" height="250"/>
 </p>
 To go through chronologically:
 The need for a container orchestration tool comes as a result of:
