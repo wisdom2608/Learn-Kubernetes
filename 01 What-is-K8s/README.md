@@ -76,7 +76,9 @@ We don’t actually create or configure containers inside of a kubernetes cluste
 </p>
 A service is basically an alternative or a substitute to those IP addresses.  So, instead of having these dynamic IP addresses, there are services sitting in front of each Pod that talks to each other. Now if a Pod behind the service dies and gets recreated, the service stays in place because their lifecycles are not tied to each other. A service has two functionalities. One is a permanent IP address which you can use to communicate between the Pods, at the same time, it is a load balancer.
 
-𝐊𝐮𝐛𝐞𝐫𝐧𝐞𝐭𝐞𝐬 𝐂𝐨𝐧𝐠𝐫𝐚𝐭𝐮𝐥𝐚𝐭𝐢𝐨𝐧𝐬 
+
+𝐊𝐮𝐛𝐞𝐫𝐧𝐞𝐭𝐞𝐬 𝐜𝐨𝐧𝐟𝐢𝐠𝐮𝐫𝐚𝐭𝐢𝐨𝐧𝐬
+
 Now that we’ve seen the basic concepts of kubernetes, how do we actually create those components like Pod and services to configure the kubernetes cluster?
 
 <p align="center">
