@@ -28,11 +28,12 @@ What orchestration tool like kubernetes does is that it guarantees the following
 <p align="center">
   <img src="https://github.com/wisdom2608/Learn-Kubernetes/blob/31ecf1e40f0acfc2a74944358b0b7009ea3ea605/01%20What-is-K8s/featur_of_orc_tools.jpeg" width="400" height="250"/> 
   </p>
- - 𝐇𝐢𝐠𝐡 𝐚𝐯𝐚𝐢𝐥𝐚𝐛𝐢𝐥𝐢𝐭𝐲 or no downtime. In simple words, high availability means the application has no downtime. It’s always accessible by the users.
+  
+- 𝐇𝐢𝐠𝐡 𝐚𝐯𝐚𝐢𝐥𝐚𝐛𝐢𝐥𝐢𝐭𝐲 or no downtime. In simple words, high availability means the application has no downtime. It’s always accessible by the users.
  
- - ⁠𝐒𝐜𝐚𝐥𝐚𝐛𝐢𝐥𝐢𝐭𝐲 or high performance: This  means that application has high performance. It loads fast and users have a very high responsive rate from the application.
+- ⁠𝐒𝐜𝐚𝐥𝐚𝐛𝐢𝐥𝐢𝐭𝐲 or high performance: This  means that application has high performance. It loads fast and users have a very high responsive rate from the application.
  
- - ⁠𝐃𝐢𝐬𝐚𝐬𝐭𝐞𝐫 𝐫𝐞𝐜𝐨𝐯𝐞𝐫𝐲 (backup and restore). This basically means that if an infrastructure has some problems like data is lost or the server explode or something bad happens to the server center, the infrastructure has to have some kind of mechanism to backup data and restores it to the latest state so that application actually doesn’t lose any data. This way, a containerize application can run from the latest state after recovery. All this are functionalities that container orchestration tool like kubernetes technology offer.
+- ⁠𝐃𝐢𝐬𝐚𝐬𝐭𝐞𝐫 𝐫𝐞𝐜𝐨𝐯𝐞𝐫𝐲 (backup and restore). This basically means that if an infrastructure has some problems like data is lost or the server explode or something bad happens to the server center, the infrastructure has to have some kind of mechanism to backup data and restores it to the latest state so that application actually doesn’t lose any data. This way, a containerize application can run from the latest state after recovery. All this are functionalities that container orchestration tool like kubernetes technology offer.
 
 
 𝐊𝐮𝐛𝐞𝐫𝐧𝐞𝐭𝐞𝐬 𝐁𝐚𝐬𝐢𝐜 𝐀𝐫𝐜𝐡𝐢𝐭𝐞𝐜𝐭𝐮𝐫𝐞 
