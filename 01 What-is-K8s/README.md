@@ -44,8 +44,9 @@ What orchestration tool like kubernetes does is that it guarantees the following
 How does kubernetes basic architecture actually look like? The kubernetes cluster is made up with at least one 𝐌𝐚𝐬𝐭𝐞𝐫 𝐍𝐨𝐝𝐞, and then connected to it are a couple of 𝐖𝐨𝐫𝐤𝐞𝐫 𝐍𝐨𝐝𝐞𝐬 where each Node has at least a 𝐤𝐮𝐛𝐞𝐥𝐞𝐭 process working on it. A kubelet is a kubernetes process that makes it possible for the cluster to talk to each other, communicate to each other and actually execute some tasks on those Nodes like running application processes. Each Worker Node has docker containers of different application deployed on it. So, depending on how the workload is distributed, you’ll have different number of docker containers running on Worker Nodes. And Worker Nodes are where the actual work is happening. It’s where the applications run. 
 
 <p align="center">
-  <img src="https://github.com/wisdom2608/Learn-Kubernetes/blob/31ecf1e40f0acfc2a74944358b0b7009ea3ea605/01%20What-is-K8s/master_Nodes_comp.jpeg" width="400" height="250"/>
+  <img src="https://github.com/wisdom2608/Learn-Kubernetes/blob/52079c71aa7dfc14a5d2741daa2ce59c310444f7/01%20What-is-K8s/master_nodes_comp.jpeg" width="400" height="250"/>
 </p>
+
 The question is what runs on 𝐌𝐚𝐬𝐭𝐞𝐫 𝐍𝐨𝐝𝐞? Master Node actually runs several kubernetes processes which are absolutely necessary to run and manage cluster properties. Such process are:
 
 - An 𝐀𝐏𝐈 server which is also a container is the entry point to kubernetes cluster. So this is the process which different kubernetes clients wil talk to. Like the 𝐔𝐈 if you’re using the kubernetes dashboard, an API if you’re using some scripts and automating technologies, and 𝐊𝐮𝐛𝐞𝐜𝐭𝐥 if you are using a command line tool. All this will to talk to API server.
